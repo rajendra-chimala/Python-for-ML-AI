@@ -35,7 +35,10 @@
 
 # Examples : 
 
-name = "    ----My Name is Rajendra 1 2 3 2 4 _____"
+name = "    ----My ----- Name is Rajendra 1 2 3 2 4 _____"
 
 newName = name.strip(" -1234_")
 print(newName)
+
+newName0 = newName.replace(" ----- "," ")
+print(newName0)
