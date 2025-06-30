@@ -1,24 +1,24 @@
 # Using lstrip() Removing the all unwanted elements from left side
 
-# name = "......Rajendra---"
-# # newName = name.lstrip()
-# newName = name.lstrip(".")
-# print(name)
-# print(newName)
+name = "......Rajendra---"
+# newName = name.lstrip()
+newName = name.lstrip(".")
+print(name)
+print(newName)
 
 
 # Using rstrip() Removing the all unwanted elements form right side
 
-# name = "Rajendra       "
-# newName = name.rstrip()
-# # Output : Rajendra
+name = "Rajendra       "
+newName = name.rstrip()
+# Output : Rajendra
 
-# name = "Rajendra           ......"
-# newName0 = name.strip('.')
-# newName = newName0.rstrip()
-# print(newName)
+name = "Rajendra           ......"
+newName0 = name.strip('.')
+newName = newName0.rstrip()
+print(newName)
 
-# # Output : Rajendra
+# Output : Rajendra
 
 # strip() Removing unwanted element from the whole string 
 
@@ -35,10 +35,18 @@
 
 # Examples : 
 
-name = "    ----My ----- Name is Rajendra 1 2 3 2 4 _____"
+# name = "    ----My ----- Name is Rajendra 1 2 3 2 4 _____"
 
-newName = name.strip(" -1234_")
-print(newName)
+# newName = name.strip(" -1234_").replace(" ----- "," ")
+# print(newName)
 
-newName0 = newName.replace(" ----- "," ")
-print(newName0)
+# newName0 = newName.replace(" ----- "," ")
+# print(newName0)
+
+
+data = "--- My name ___ is Ram 123 karki --"
+
+newData = data.strip(" - ").replace(" ___ "," ")
+newData0 = newData.replace(" 123","")
+
+print(newData0)
