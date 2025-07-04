@@ -100,8 +100,24 @@ mySet = {1,2,7,3,4,-2,5,0,-1,-5}
 # print(mySet)
 
 
-# Empty Set 
+# # Empty Set 
 
-my_set  = set()
+# my_set  = set()
 
-print(type(my_set))
+# print(type(my_set))
+
+# -------------------------------------------------------------------------------------
+
+# Dictionary in Python
+
+
+dic = {
+    "name":"Rajenra Chimala",
+    "address":"Kailali",
+    "age" : 19,
+    
+}
+
+print(dic)
+
+print(dic["name"])
