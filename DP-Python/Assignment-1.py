@@ -1,8 +1,21 @@
+
+# 12
+# text = " WellCome to dIGITAl PathShala "
+# formatedData = text.strip().title()
+
+# print("Formated Data : ",formatedData)
+
+
+
+
+
+
+
+
+
+
+#10
 # myList = ["hello world", "good morning", "python programming", "data science"]
-
-
-
-
 # result = [ml.title() for ml in myList] 
 # print("Data After Title Case:")
 # for item in result:
