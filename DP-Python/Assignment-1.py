@@ -1,7 +1,9 @@
-headings = [" heading1 ", "  HEADING2  ", " hEADING3", "Heading4  ", "  HEADING5"]
-cleaned_headings = sorted([c.strip().title() for c in headings])
 
-print("Cleaned Codes: ", cleaned_headings)
+#30
+# headings = [" heading1 ", "  HEADING2  ", " hEADING3", "Heading4  ", "  HEADING5"]
+# cleaned_headings = sorted([c.strip().title() for c in headings])
+
+# print("Cleaned Codes: ", cleaned_headings)
 
 
 
