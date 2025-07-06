@@ -1,3 +1,140 @@
+headings = [" heading1 ", "  HEADING2  ", " hEADING3", "Heading4  ", "  HEADING5"]
+cleaned_headings = sorted([c.strip().title() for c in headings])
+
+print("Cleaned Codes: ", cleaned_headings)
+
+
+
+
+# 29
+# raw_text = "_-Hello-_"
+# cleaned_data = raw_text.strip("_-")
+
+# print("Cleaned Data: ", cleaned_data)
+
+
+
+
+
+
+
+
+#28
+# raw_data = {"m1": " hello world ", "m2": "python is fun","m3": "  data science  ", "m4": "  machine learning  "}
+# cleaned = {k: v.strip().capitalize() for k, v in raw_data.items()}
+# print("Cleaned Data: ", cleaned)
+
+
+
+
+
+
+
+# 27
+# sentences = [" good morning    ", "Hello Everyone "," welcome to Digital Pathshala!  ", "  Python programming is fun.  "]
+# unique_words = set()
+# for i in sentences:
+#  unique_words.update(i.strip().title().split())
+
+# print("Unique Words After Cleaning and Capitalization: ", unique_words)
+
+
+
+
+
+
+
+
+
+
+
+
+# 26
+# names = [" ram ", "Sita", " HARI","GITa",]
+# for i in range(len(names)):
+#  names[i] = names[i].strip().title()
+ 
+# print("Cleaned Names: ", names)
+
+
+
+
+
+
+
+# 25
+# raw_data = "345235good morning!$234           "
+# cleaned_data = raw_data.strip("0123456789").rstrip("0123456789!$ ").title() 
+
+# print("Data After Cleaning and Title Case: ", cleaned_data)
+
+
+
+
+
+
+
+
+
+
+
+# 24
+# raw_emails = [" Ram@Example.com", "sitA@EXAMPLE.COM "]
+# cleaned_emails = [i.strip().split("@")[0].capitalize() + "@" + i.strip().split("@")[1].lower() for i in raw_emails]
+
+# print("Cleaned Emails: ", cleaned_emails)
+
+
+
+
+
+
+
+
+
+
+
+
+# 23
+# def c_title(r):
+#  return ' '.join([i.capitalize() for i in r.split()])
+
+# raw = input("Enter a string: ")
+# res = c_title(raw) 
+
+# print("Formatted String :", res)
+
+
+
+
+
+
+# 22
+# raw_data = {"animals": [" rat", "rabbit ","  tiger"], "plants": ["palm ", " apple","neem"]}
+# cleaned_data = {i: [j.strip().title() for j in x] for i, x in raw_data.items()}
+
+# print("Cleaned Data: ", cleaned_data)
+
+
+
+
+
+
+
+
+#21
+# raw_data = {"***ram***", "  sita    ", " Gita@@@@@@@@@@@@@@@ ","333333333hari-----"}
+# cleaned_data = {rd.strip("*@3- ").capitalize() for rd in raw_data} 
+# print("Cleaned Data: ", cleaned_data)
+
+
+
+
+
+
+
+
+
 #20
 # products = [" apple", "-Banana", "apricot", "banana ","mango","momo","------orange"]
 # cleaned_data = [p.strip(" -").capitalize() for p in products]
