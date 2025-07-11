@@ -1,4 +1,4 @@
-# This is assignment 2 for the Data Processing course.
+# This is assignment 2 of AI ML Course
 import time
 
 def main():
