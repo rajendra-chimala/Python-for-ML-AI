@@ -1,51 +1,49 @@
-import numpy as np
+import numpy as np 
 
-# Array Attributes
-# arr = np.array([[1, 2, 3], [4, 7, 6]])
+# arr_3d = np.array([[[2, 3, 5], [6, 8, 9]], [[3, 4, 7], [4, 7, 8]]])
+# print(arr_3d)
 
-# print("Array:\n", arr)
+# 3 x 3 matrix with all elements zero
+# zeros_a = np.zeros((3, 3))
+# print(zeros_a)
 
-# # Shape of the array
-# print("Shape:", arr.shape)
+# 3 x 3 matrix with all elements one
 
-# # Size of the array
-# print("Size of Array : ", arr.size)
+# ones_a = np.ones((3,3))
+# print(ones_a)
 
-# # Dimension of the array
-# print("Dimension of Array : ", arr.ndim)
+# to create an identity matrix of size 40 x 40
+# id_mat = np.eye(40)
+# print(id_mat)
 
-# # Data type of the array
-# print("Data type of Array : ", arr.dtype)
+# we have to create array of first 50 numbers starting from 1
+# arr = np.arange(1, 51, 2)
+# print(arr)
 
-# # Size of each element in bytes
-# print("Size of each element in bytes:", arr.itemsize)
+# we need an array having 5 values from 1 to 10 evenly spaced
+# sp_arr = np.linspace(1, 20, 5)
+# print(sp_arr)
 
-# # Size of the array in bytes
-# print("Total size of the array in bytes:", arr.nbytes)
+# random_arr = np.random.rand(4, 4) # -> this creates a 4 x4 matrix with all values ranging from 0 to 1
+# print(random_arr)
 
-# Array Accessing 
+# random_arr = np.random.randint(1, 11, size = (4, 4))
+# print(random_arr)
 
-# arr = np.array([1,2,3,4,5,6])
+# arr = np.array([[10, 20, 30], [30, 40 ,70], [3, 5, 7]], dtype = 'int16')
+# print(arr)
+# print(arr.shape)
+# print(arr.size)
+# print(arr.ndim)
+# print(arr.dtype)
+# print(arr.itemsize)
+# print(arr.nbytes)
 
-# # print(arr[0])
-# # print(arr)
+# arr_1d = np.array([10, 20, 30, 40, 50])
+# print(arr_1d[1:4])
 
-# print(arr[1:4])  # Slicing from index 1 to 3
-# print(arr[1:])   # Slicing from index 1 to the end
-# print(arr[:4])   # Slicing from the start to index 3
-
-
-arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-
-
-# Accessing elements in a 2D array
-print("Element at (0, 0):", arr[0, 0])
-
-# Accessing a row
-print("Row 1:", arr[0])
-# Accessing a column
-print("Column 1:", arr[:, 0])
-
-
-
-
+arr_matrix = np.array([[10,20,30],
+              [40,50,60],
+              [70,80,90]])
+print(arr_matrix)
+print(arr_matrix[1,:])
