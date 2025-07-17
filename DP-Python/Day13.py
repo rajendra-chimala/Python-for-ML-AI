@@ -51,28 +51,64 @@ arr_b = np.array([5, 6, 7, 8])
 
 # Statical Functions
 
-a = np.array([10, 20, 30, 40, 51])
+# a = np.array([10, 20, 30, 40, 51])
 
-mean = np.mean(a)
-print("Mean of the array: ", mean)
+# mean = np.mean(a)
+# print("Mean of the array: ", mean)
 
-median = np.median(a)
-print("Median of the array: ", median)
+# median = np.median(a)
+# print("Median of the array: ", median)
 
-SD = np.std(a)
-print("Standard Deviation of the array: ", SD)
+# SD = np.std(a)
+# print("Standard Deviation of the array: ", SD)
 
-variance = np.var(a)
-print("Variance of the array: ", variance)
+# variance = np.var(a)
+# print("Variance of the array: ", variance)
 
-min = np.min(a)
-print("Minimum value in the array : ", min)
+# min = np.min(a)
+# print("Minimum value in the array : ", min)
 
-max = np.max(a)
-print("Maximum value in the array : ", max)
+# max = np.max(a)
+# print("Maximum value in the array : ", max)
 
-imin = np.argmin(a)
-print("Index of Minimum value in the array : ", imin)
+# imin = np.argmin(a)
+# print("Index of Minimum value in the array : ", imin)
 
-imax = np.argmax(a)
-print("Index of Maximum value in the array : ", imax)
+# imax = np.argmax(a)
+# print("Index of Maximum value in the array : ", imax)
+
+##################################################################################
+# Matrix Creation
+
+A = np.array([[2,3], [4,5]])
+B = np.array([[6,7], [8,9]])
+# Matrix Multiplication
+
+# dot_product =  np.dot(A, B) # or A @ B
+# print("Dot Product of A and B:\n", dot_product)
+
+
+
+# Matrix Transpose
+
+transposed_A = A.T
+print("Transposed Matrix A:\n", transposed_A)
+
+
+# Diterminant of a Matrix
+det_of_A = np.linalg.det(A)
+print("Determinant of Matrix A:", det_of_A)
+
+
+# Inverse of a Matrix
+inv_A = np.linalg.inv(A)
+print("Inverse of Matrix A:\n", inv_A)
+
+
+# Eiganvalues and Eigenvectors
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print("Eigenvalues of Matrix A:", eigenvalues)
+print("Eigenvectors of Matrix A:\n", eigenvectors)
+
+
+# 
