@@ -30,23 +30,23 @@ arr = np.array([1,2,3,4,5,6,7,8,9,10])
 arr_a = np.array([1, 2, 3, 4])
 arr_b = np.array([5, 6, 7, 8])
 
-# print("Addition of Arrays : ", arr_a + arr_b)
-# print("Subtraction of Arrays : ", arr_a - arr_b)
-# print("Multiplication of Arrays : ", arr_a * arr_b)
-# print("Division of Arrays : ", arr_a / arr_b)
-# print("Element-wise Exponentiation : ", arr_a ** 2)
-# print("Modulas of Arrays : ", arr_a % 2)
+print("Addition of Arrays : ", arr_a + arr_b)
+print("Subtraction of Arrays : ", arr_a - arr_b)
+print("Multiplication of Arrays : ", arr_a * arr_b)
+print("Division of Arrays : ", arr_a / arr_b)
+print("Element-wise Exponentiation : ", arr_a ** 2)
+print("Modulas of Arrays : ", arr_a % 2)
 
 
 
 # Universal Functions
-# print("Square Root of Array : ", np.sqrt(arr_a))
-# print("Exponential of arr_a : ", np.exp(arr_a))
-# print("Natural Logarithm : ",np.log(arr_a))
-# print("Logarithm base 10 : ",np.log10(arr_a))
-# print("Sin Value : ", np.sign(arr_a))
-# print("Cos Values : ",np.cos(arr_a))
-# print("Tan Values : ",np.tan(arr_a))
+print("Square Root of Array : ", np.sqrt(arr_a))
+print("Exponential of arr_a : ", np.exp(arr_a))
+print("Natural Logarithm : ",np.log(arr_a))
+print("Logarithm base 10 : ",np.log10(arr_a))
+print("Sin Value : ", np.sign(arr_a))
+print("Cos Values : ",np.cos(arr_a))
+print("Tan Values : ",np.tan(arr_a))
 
 
 # Statical Functions
@@ -114,23 +114,23 @@ B = np.array([[6,7], [8,9]])
 #############################################################################################
 # Advacned Mathematical Functions
 
-# arr = np.array([1, 2, 3, 4,1,3, 5,2,2])
+arr = np.array([1, 2, 3, 4,1,3, 5,2,2])
 
-# # Sum of all elements
-# sum_of_elements = np.sum(arr)
-# print("Sum of all elements:", sum_of_elements) 
+# Sum of all elements
+sum_of_elements = np.sum(arr)
+print("Sum of all elements:", sum_of_elements) 
 
-# cumulative_sum = np.cumsum(arr)
-# print("Cumulative Sum of elements:", cumulative_sum)
+cumulative_sum = np.cumsum(arr)
+print("Cumulative Sum of elements:", cumulative_sum)
 
 
-# # Finding Unique Elements
+# Finding Unique Elements
 
-# unique = np.unique(arr)
-# unique,count = np.unique(arr,return_counts=True)
-# print("Unique elements in the array:", unique)
+unique = np.unique(arr)
+unique,count = np.unique(arr,return_counts=True)
+print("Unique elements in the array:", unique)
 
-# print("Count of unique elements:", count)
+print("Count of unique elements:", count)
 
 
 # # Sorting Arrays
