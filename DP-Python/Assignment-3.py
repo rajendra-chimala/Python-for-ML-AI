@@ -263,26 +263,125 @@
 
 # Question 13
 
+# import numpy as np
+
+# v1 = [1, 0, 0]
+# v2 = [0, 1, 0]
+# v3 = [0, 0, 1]
+
+# A = np.column_stack((v1, v2, v3))
+
+
+# rank = np.linalg.matrix_rank(A)
+
+# print("Matrix formed by vectors:\n", A)
+# print("Rank of the matrix:", rank)
+
+# if rank == 3:
+#     print("The vectors form a basis for R^3 (they are linearly independent and span the space).")
+# else:
+#     print("The vectors do NOT form a basis for R^3.")
+
+# Qn 14
+
+    # import numpy as np
+
+    # A = np.array([
+    #     [1, 2, 3],
+    #     [2, 4, 6],
+    #     [1, 1, 1]
+    # ])
+
+    # rank = np.linalg.matrix_rank(A)
+    # print("Rank of A:", rank)
+    
+    
+# import numpy as np
+# from sympy import Matrix
+
+# A = np.array([
+#     [1, 2, 3],
+#     [2, 4, 6],
+#     [1, 1, 1]
+# ])
+
+# rank_numpy = np.linalg.matrix_rank(A)
+
+# A_sym = Matrix(A)
+# ref, _ = A_sym.rref() 
+
+# pivot_columns = _.tolist()
+# pivot_count = len(pivot_columns)
+
+# print("Row Echelon Form (RREF):")
+# print(ref)
+# print("Pivot Columns:", pivot_columns)
+# print("Number of Pivot Columns:", pivot_count)
+# print("Rank from NumPy:", rank_numpy)
+
+
+
+
+
+# import numpy as np
+
+
+# u = np.array([1, 2, 3])      
+# v = np.array([4, 5, 6])      
+
+
+# A = np.outer(u, v)
+
+# rank = np.linalg.matrix_rank(A)
+
+# _, s, _ = np.linalg.svd(A)
+# independent_columns = np.sum(s > 1e-10)
+
+# print("Matrix A:\n", A)
+# print("Rank of A:", rank)
+# print("Number of Linearly Independent Columns:", independent_columns)
+
+
+# import numpy as np
+
+# def full_rank_percentage(n=10, size=4):
+#     full_rank_count = 0
+
+#     for i in range(n):
+#         A = np.random.randint(-10, 10, (size, size)) 
+#         rank = np.linalg.matrix_rank(A)
+#         print(f"Matrix {i+1}:\n{A}\nRank: {rank}\n")
+#         if rank == size:
+#             full_rank_count += 1
+
+#     percentage = (full_rank_count / n) * 100
+#     print(f"Full-rank matrices: {full_rank_count} out of {n}")
+#     print(f"Percentage of full-rank matrices: {percentage:.2f}%")
+#     return percentage
+
+
+# full_rank_percentage()
+
+
 import numpy as np
 
-v1 = [1, 0, 0]
-v2 = [0, 1, 0]
-v3 = [0, 0, 1]
-
-A = np.column_stack((v1, v2, v3))
-
+A = np.array([
+    [1, 0, 1],
+    [0, 1, 1],
+    [0, 1, 1]
+], dtype=float)
 
 rank = np.linalg.matrix_rank(A)
-
-print("Matrix formed by vectors:\n", A)
-print("Rank of the matrix:", rank)
-
-if rank == 3:
-    print("The vectors form a basis for R^3 (they are linearly independent and span the space).")
-else:
-    print("The vectors do NOT form a basis for R^3.")
+print("Rank of A:", rank)
 
 
+u, s, vh = np.linalg.svd(A)
+tolerance = 1e-10
+independent_indices = np.where(s > tolerance)[0]
 
+basis_columns = A[:, independent_indices]
+
+print("Basis columns (from original A):")
+print(basis_columns)
 
 
