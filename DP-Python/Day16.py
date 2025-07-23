@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.decomposition import PCA
 v1 = np.array([1,2,3])
 v2 = np.array([4,5,6])
 
@@ -48,15 +49,26 @@ v2 = np.array([4,5,6])
 
 # 
 
-M = np.stack([v1,v2], axis=1)
+# M = np.stack([v1,v2], axis=1)
 
-rank = np.linalg.matrix_rank(M)
+# rank = np.linalg.matrix_rank(M)
 
 
-is_independent = (rank == M.shape[1])
+# is_independent = (rank == M.shape[1])
 
-if is_independent:
-    print("The vector is in dependent !")
-else:
-    print("The vector is dependent !")
+# if is_independent:
+#     print("The vector is in dependent !")
+# else:
+#     print("The vector is dependent !")
+
+# Dimension Reduction using PCA
+
+X = np.random.rand(5,4)
+
+p = PCA(n_components=3)
+
+x_pca = p.fit_transform(X)
+
+print(X)
+print(x_pca)
 
