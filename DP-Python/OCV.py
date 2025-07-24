@@ -1,7 +1,7 @@
 import cv2
 
 
-image = cv2.imread('image.png')
+image = cv2.imread('./img/image.png')
 
 if image is not None:
     print("Image loaded successfully !")
