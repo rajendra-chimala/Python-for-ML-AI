@@ -1,0 +1,1 @@
+# Day 2 of OpenCV (Open Source Computer Vision) 
