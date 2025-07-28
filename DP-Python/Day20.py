@@ -27,7 +27,7 @@ while True :
     
     for(x,y,w,h) in face:
         cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),4)
-        cv.imshow("Face Detection",frame)
+    cv.imshow("Face Detection",frame)
         
     if cv.waitKey(1) & 0xFF == ord(" "):
         break
