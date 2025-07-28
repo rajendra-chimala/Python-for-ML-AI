@@ -48,7 +48,7 @@ edges = cv.Canny(image,threshold1=100,threshold2=200)
 
 gray = cv.cvtColor(image,cv.COLOR_BGR2GRAY)
 
-# Haar cascades
+# Haar Cascades
 
 face_cascade  = cv.CascadeClassifier(cv.data.haarcascades + "haarcascade_frontalface_default.xml")
 
