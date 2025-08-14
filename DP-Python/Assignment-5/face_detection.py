@@ -61,11 +61,12 @@ while True:
         else:
             color = (0, 0, 255)  # Red
 
-        cv2.putText(frame, f"[{name} ({int(confidence)})]", (x, y-10),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
-        cv2.rectangle(frame, (x, y), (x+w, y+h), color, 2)
+        if confidence <60:
+            cv2.putText(frame, f"[{name} ({int(confidence)})]", (x, y-10),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
+            cv2.rectangle(frame, (x, y), (x+w, y+h), color, 2)
 
-    cv2.imshow("Face Recognition", frame)
+    cv2.imshow("Face Recognition", cv2.resize(frame,(400,400)))
 
     if cv2.waitKey(1) & 0xFF == ord(' '):
         break
