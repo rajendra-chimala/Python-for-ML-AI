@@ -38,6 +38,9 @@ df = pd.DataFrame(data)
 
 
 # Descriptive Statistics
+print("Mean\n",df.mean())
+print("Median\n",df.median())
+print("Standard Diviation \n",df.std())
+print(df.min())
+print(df.max())
 
-
-print()
