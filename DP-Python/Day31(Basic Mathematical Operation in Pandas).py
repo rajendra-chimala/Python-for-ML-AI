@@ -38,9 +38,51 @@ df = pd.DataFrame(data)
 
 
 # Descriptive Statistics
-print("Mean\n",df.mean())
-print("Median\n",df.median())
-print("Standard Diviation \n",df.std())
-print(df.min())
-print(df.max())
+# print("Mean\n",df.mean())
+# print("Median\n",df.median())
+# print("Standard Diviation \n",df.std())
+# print(df.min())
+# print(df.max())
 
+
+#  Element-wise Mathematical Functions
+import numpy as np
+
+# df["Square of A"] = np.square(df["A"])
+# print("\nSquare of A:")
+# print(df["Square of A"])
+
+
+# df["Square Root of B"] = np.sqrt(df["B"])
+# print("\nSquare Root of B:")    
+# print(df["Square Root of B"])
+
+
+# df["Log of A"] = np.log(df["A"])
+# print("\nLog of A:")
+# print(df["Log of A"])
+
+
+# df["Exponential of A"] = np.exp(df["A"])
+# print("\nExponential of A:")
+# print(df["Exponential of A"])
+
+
+#  Applying Functions with apply()
+
+
+# def double(x):
+#     return x * 2
+
+# df["Square of C"] = df["C"].apply(double)
+# print("\nSquare of C:")
+# print(df["Square of C"])
+
+
+#  Column-wise and Row-wise Operations
+
+df [" row_sum "] = df .sum ( axis =1)
+# Sum across rows (column - wise )
+col_sum = df .sum ( axis =0)
+print ( df )
+print ("Column - wise sum :\n", col_sum )
