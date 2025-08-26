@@ -1,0 +1,5 @@
+Name,Age,Gender,Salary,Department
+Alice,25.0,F,50000.0,HR
+David,22.0,M,45000.0,IT
+Eve,29.0,F,70000.0,HR
+Frank,40.0,M,80000.0,Unknown

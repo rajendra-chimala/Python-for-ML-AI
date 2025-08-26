@@ -1,4 +1,5 @@
 Name,Age,Gender,Salary,Department
+Shyam,12,M,3000,HR
 Alice,25.0,F,50000.0,HR
 Bob,,M,60000.0,IT
 Charlie,30.0,M,,Finance
@@ -7,3 +8,5 @@ Eve,29.0,F,70000.0,HR
 Frank,40.0,Male,80000.0,
 Grace,,Female,75000.0,Finance
 Alice,25.0,F,50000.0,HR
+Ram,98,M,20000.0,HR
+Hari,100,M,20000,HR
