@@ -92,5 +92,13 @@ P, L, U = la.lu(A)
 # QR decomposition
 A = np.array([[1,2,3],[3,4,5]])
 Q,R = la.qr(A)
+print("Matrix A:")
+print(A)
 
-# 
+print("\nOrthogonal matrix Q:")
+print(Q)
+
+print("\nUpper triangular matrix R:")
+print(R)
+
+# Orthogonal Matrix and R is upper Triangular matrix

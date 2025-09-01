@@ -3,7 +3,7 @@
 # for fruit in fruits:
 #     print(" for loop:", fruit)
 
-
+ 
 
 # Printing numbers from 0 to 4 using a for loop
 # for i in range(5):

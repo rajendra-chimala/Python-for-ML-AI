@@ -31,7 +31,7 @@ m = np.array([[1,2,3,4],[4,2,3,1]])
 sm = np.sort(m, axis=1) For row wise sorting 
 sm = np.sort(m, axis=0) #column wise sorting 
 
-print(sm)
+print(sm)tr54
 
 '''
 

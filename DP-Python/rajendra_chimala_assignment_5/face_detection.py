@@ -55,11 +55,11 @@ while True:
         name = label_to_name.get(label, "Unknown")
 
         if confidence < CONFIDENCE_THRESHOLD:
-            color = (0, 255, 0)  # Green
+            color = (0, 255, 0)  
             if name == AUTHORIZED_PERSON:
                 print("Access Granted")
         else:
-            color = (0, 0, 255)  # Red
+            color = (0, 0, 255)  
 
         if confidence <60:
             cv2.putText(frame, f"[{name} ({int(confidence)})]", (x, y-10),
