@@ -3,31 +3,23 @@ import matplotlib.pyplot as plt
 # Bar Chart : It is used to show the discrete data.
 # plt.style.use('fivethirtyeight')
 
-# department = ["Computer Science", "Electrical", "Civil", "Mechanical","Aerospace", "Computer Engineering", "AI/Ml", "Physics"]
+department = ["Computer Science", "Electrical", "Civil", "Mechanical","Aerospace", "Computer Engineering", "AI/Ml", "Physics"]
 
-# no_of_students = [120, 60, 90, 80, 40, 50, 30, 60]
-# sd = department.sort()
-# sorted = no_of_students.sort()
-
-# plt.bar(sd, sorted, edgecolor = "black")
+no_of_students = [120, 60, 90, 80, 40, 50, 30, 60]
 
 
-# # Zoom out vertically (Y-axis)
-# # plt.ylim(0, 00)  # Max Y value = 40
-
-# # Zoom out horizontally (X-axis)
-# # plt.xlim(-0.5, len(labels)-0.5)
+plt.bar(department, no_of_students, edgecolor = "black")
 
 
-# for i, value in enumerate(no_of_students):
-#     plt.text(i,value+2,str(value),ha="center")
+for i, value in enumerate(no_of_students):
+    plt.text(i,value+2,str(value),ha="center")
 
-# plt.xlabel("Departments")
-# plt.ylabel("Number of Students")
-# plt.title("Number of students in each department of a college")
-# plt.xticks(rotation=45) 
+plt.xlabel("Departments")
+plt.ylabel("Number of Students")
+plt.title("Number of students in each department of a college")
+plt.xticks(rotation=45) 
 
-# plt.show()
+plt.show()
 
 
 
@@ -36,10 +28,12 @@ import matplotlib.pyplot as plt
 
 plt.style.use('fivethirtyeight')
 
-datas = [2,5,3,7,5,9,78,90,23,34,12,46,6,4,34,67,54,76,34,98,7,6,67,86,49,99]
+ages = [18, 19, 20, 21, 21, 22, 22, 23, 24, 24,
+        25, 26, 26, 27, 28, 29, 30, 30, 31, 32]
 
-plt.hist(datas,bins=20,color='skyblue', edgecolor='black')
-plt.title("Basic Histogram")
-plt.xlabel("Bins (Value Ranges)")
-plt.ylabel("Frequency")
+plt.hist(ages,bins=10,color='skyblue', edgecolor='black')
+plt.title("Age Distribution Histogram")
+plt.xlabel("Age Range")
+plt.ylabel("Number of Student")
+plt.tight_layout()
 plt.show()
