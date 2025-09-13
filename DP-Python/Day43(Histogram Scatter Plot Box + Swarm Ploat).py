@@ -26,6 +26,8 @@ tips = sns.load_dataset("tips")
 # 2. Scatter with hue & size
 # ----------------------------
 
+# This is Scatter plot with hue and size encoding
+
 # plt.figure(figsize=(7,5))
 # sns.scatterplot(data=tips, x="total_bill", y="tip", hue="day", size="size", sizes=(20,200))
 # plt.title("Tip vs Total Bill (hue=day, size=party size)")
