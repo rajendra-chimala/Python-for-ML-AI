@@ -37,9 +37,11 @@ tips = sns.load_dataset("tips")
 # 3. Box + swarm combined
 # ----------------------------
 
-plt.figure(figsize=(8,5))
-sns.boxplot(data=tips, x="day", y="total_bill")
-sns.swarmplot(data=tips, x="day", y="total_bill", color="k", alpha=0.6)
-plt.title("Boxplot with swarm overlay")
-plt.tight_layout()
-plt.show()
+
+
+# plt.figure(figsize=(8,5))
+# sns.boxplot(data=tips, x="day", y="total_bill")
+# sns.swarmplot(data=tips, x="day", y="total_bill", color="k", alpha=0.6)
+# plt.title("Boxplot with swarm overlay")
+# plt.tight_layout()
+# plt.show()
