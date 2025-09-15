@@ -1,0 +1,8 @@
+Name,Age,Salary,Department
+John,25,50000.0,IT
+,30,60000.0,HR
+Alice,21,-45000.0,Finance
+Bob,28,,IT
+Eve,NaN,55000.0,HR
+Charlie,35,65000.0,Finance
+Alice,31,30000.0,IT
