@@ -14,9 +14,9 @@ iris = sns.load_dataset("iris")
 # Point Plot
 # -----------------------------
 
-# sns.pointplot(data=tips, x="day", y="total_bill")
-# plt.title("Point Plot of total_bill by day")
-# plt.show()
+sns.pointplot(data=tips, x="day", y="total_bill")
+plt.title("Point Plot of total_bill by day")
+plt.show()
 
 
 
