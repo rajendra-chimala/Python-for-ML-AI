@@ -23,11 +23,11 @@ iris = sns.load_dataset("iris")
 #------------------
 #Correlation Heatmap
 #------------------
-# cor = tips.corr(numeric_only = True) # Tip, Total_bill and Size
+cor = tips.corr(numeric_only = True) # Tip, Total_bill and Size
 
-# sns.heatmap(cor, annot = True,  fmt = ".2f")
-# plt.title("Correlation Heatmap of Tips Dataset")
-# plt.show()
+sns.heatmap(cor, annot = True,  fmt = ".2f")
+plt.title("Correlation Heatmap of Tips Dataset")
+plt.show()
 
 
 
