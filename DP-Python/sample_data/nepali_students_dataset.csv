@@ -1,0 +1,101 @@
+Name,Roll_no,Class,CGPA,IQ,Age
+Pooja Joshi,1,BIM,3.2,78.8,18
+Bhawana Koirala,2,BSc CSIT,2.94,93.7,17
+Hari Maharjan,3,BSc CSIT,3.26,94.9,24
+Sanjana Khadka,4,BCA,3.61,88.0,17
+Rajesh Shrestha,5,BCA,2.91,97.6,25
+Sita Bhattarai,6,BIM,2.91,50.0,22
+Binod Shah,7,BIM,3.63,128.3,23
+Pooja Silwal,8,BIM,3.31,102.6,23
+Krishna KC,9,BSc CSIT,2.81,103.9,19
+Raju Yadav,10,BCA,3.22,98.9,18
+Saugat Kattel,11,BIM,4.5,71.2,25
+Anil Gurung,12,BIT,2.81,99.6,24
+Samir Dhakal,13,BIT,3.1,100.9,23
+Kusum Dahal,14,BIT,2.23,136.9,25
+Nisha Acharya,15,BIT,2.31,97.1,20
+Sudip Shah,16,BCA,2.78,104.5,20
+Sabin Joshi,17,BIT,2.59,99.5,17
+Ramesh Kattel,18,BIT,3.13,82.5,24
+Rekha Poudel,19,BCA,2.64,117.1,19
+Roshan Singh,20,BIM,2.44,111.3,23
+Pramod Tamang,21,BCA,3.59,111.9,18
+Prakash Gurung,22,BIT,2.91,86.4,18
+Saroj Baniya,23,BSc CSIT,3.03,121.0,23
+Pooja Koirala,24,BIM,2.43,79.0,22
+Sunita Pandey,25,BCA,2.78,108.8,19
+Manoj Koirala,26,BSc CSIT,3.04,132.9,25
+Sita Bhandari,27,BSc CSIT,2.54,85.1,22
+Sabin Bista,28,BIT,3.15,91.5,22
+Anita Rai,29,BIT,2.76,101.5,17
+Nabin Thapa,30,BSc CSIT,2.88,92.4,20
+Saroj Pathak,31,BCA,2.76,76.7,22
+Kamal Koirala,32,BIT,3.74,101.0,22
+Sanjay Chaudhary,33,BCA,2.99,84.1,21
+Pooja Kattel,34,BIM,2.58,107.1,17
+Anita Kharel,35,BSc CSIT,3.33,86.2,24
+Shyam Rajbhandari,36,BIM,2.51,123.2,21
+Krishna Acharya,37,BIT,3.08,88.3,21
+Suman Shakya,38,BIT,2.22,200.0,23
+Anita Maharjan,39,BIM,2.47,112.2,20
+Sunita Dongol,40,BIM,3.08,81.5,22
+Binod Baniya,41,BCA,3.3,103.4,20
+Kamal Poudel,42,BSc CSIT,3.07,119.6,19
+Sarita Yadav,43,BSc CSIT,2.95,75.9,23
+Pramod Khadka,44,BIT,2.88,102.8,24
+Nisha Rajbhandari,45,BSc CSIT,2.41,103.9,20
+Milan Bastola,46,BSc CSIT,2.71,111.7,18
+Nisha Gurung,47,BSc CSIT,2.82,81.4,19
+Saroj Pokhrel,48,BCA,3.42,80.2,17
+Anita Chaudhary,49,BCA,3.14,107.8,24
+Suresh Subedi,50,BSc CSIT,2.29,104.5,19
+Sanjana Lama,51,BSc CSIT,3.13,103.8,23
+Arjun Koirala,52,BIT,2.85,105.2,21
+Mohan Basnet,53,BIT,2.73,89.8,21
+Suman Maharjan,54,BIM,3.24,103.5,23
+Bishal Baniya,55,BSc CSIT,3.41,104.4,25
+Rekha Khadka,56,BIM,3.37,89.3,21
+Sita Maharjan,57,BCA,2.66,128.0,17
+Shyam Chaudhary,58,BCA,2.88,107.1,17
+Kamal Dongol,59,BIT,3.13,82.1,18
+Krishna Baniya,60,BSc CSIT,3.39,109.8,22
+Anup Singh,61,BIM,2.81,85.4,25
+Sabin Dhakal,62,BCA,2.93,111.8,24
+Gita Kattel,63,BIT,2.56,117.4,21
+Bishal Adhikari,64,BSc CSIT,2.52,87.7,17
+Kusum Silwal,65,BIM,3.33,114.5,23
+Gita Maharjan,66,BIM,3.54,106.2,21
+Dipak Upreti,67,BSc CSIT,2.97,112.3,22
+Suman Yadav,68,BSc CSIT,3.4,128.5,23
+Rekha Neupane,69,BIT,3.14,96.3,19
+Rajendra Balami,70,BIT,2.74,88.7,19
+Asmita Shah,71,BIT,3.14,86.7,21
+Sudip Kattel,72,BIM,3.62,87.8,22
+Saroj Shakya,73,BIT,2.99,98.8,25
+Sabin Pathak,74,BCA,3.63,105.1,21
+Anup Lama,75,BSc CSIT,1.95,104.2,17
+Anita Roka,76,BIM,3.33,112.4,20
+Anup Shakya,77,BIT,3.03,100.2,21
+Kamal Khadka,78,BCA,2.88,160.0,21
+Gita Manandhar,79,BCA,3.04,96.0,23
+Manoj Chaudhary,80,BCA,0.5,140.8,20
+Sanjana Upreti,81,BIM,2.91,109.4,17
+Roshan Shrestha,82,BCA,3.14,87.1,21
+Hari Shakya,83,BIM,3.59,83.9,23
+Saugat Dhakal,84,BIM,2.79,107.2,22
+Rekha Koirala,85,BIM,2.68,96.6,21
+Manoj Adhikari,86,BIM,2.8,110.7,20
+Santosh Kattel,87,BIM,3.37,107.1,18
+Hari Kattel,88,BCA,3.13,98.9,20
+Sarita Bastola,89,BIM,2.79,87.3,19
+Keshav Neupane,90,BIM,3.21,77.3,17
+Manoj Roka,91,BIM,3.04,93.3,24
+Arjun Bhandari,92,BSc CSIT,3.39,112.8,21
+Kiran Bista,93,BSc CSIT,2.72,103.2,20
+Kiran Dongol,94,BSc CSIT,2.87,81.3,24
+Kiran Maskey,95,BIT,2.84,102.6,23
+Kiran Balami,96,BIT,2.41,105.8,18
+Manoj Subedi,97,BSc CSIT,3.12,86.7,17
+Binod Dhakal,98,BSc CSIT,3.1,102.3,20
+Roshan Koirala,99,BIT,3.0,100.9,24
+Krishna Magar,100,BSc CSIT,2.91,82.9,18
